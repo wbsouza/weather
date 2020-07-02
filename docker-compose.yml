@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  weather-api-server:
+    container_name: weather-api-server
+    image: wbsouza/weather:1.0
+    ports:
+      - "8090:80"
+    volumes:
+      - ./logs:/app/Logs
