@@ -17,7 +17,7 @@ To run the application using docker just execute
     docker-compose up
  
  ## Testing the API server running inside the docker container
- To test the endpoint to get the weather forecast you can invoke via command line
+ To test the endpoint getting the "weather forecast" (random generated) you can call via command line
  
      curl  http://localhost:8090/weatherforecast
  
